@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <!-- title -->
+  <div class="mt-10 text-opacity-60 w-full text-center text-white text-xl h-1/6">
+    <span>APP NAME</span>
+  </div>
+
+  <!-- delay -->
+  <div class="w-full h-1/9 text-center">
+    <input id="delayInput" type="number" placeholder="Enter Delay" class="bg-white bg-opacity-10 text-white caret-white outline-none border-0 h-10 text-lg p-2 rounded-md"/>
+  </div>
+
+  <!-- replies -->
+  <div class="mt-10 flex w-4/5 mx-auto justify-between items-center">
+    <span class="text-white text-xl">
+      Your Replies
+    </span>
+
+    <span class="text-white text-xl cursor-pointer" id="buttonAddReply"> + </span>
+  </div>
+  <div class="mt-5 flex flex-col w-full gap-10" id="replyList">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
