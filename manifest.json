@@ -1,0 +1,7 @@
+{
+  "manifest_version": 3,
+  "name": "twitter nft giveaway tool",
+  "description": "automatically enters giveaways",
+  "author": "Cristi Macovei",
+  "version": "1.0.0"
+}
